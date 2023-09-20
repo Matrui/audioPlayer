@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("media/images/lemonade.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 130%;
+}
+
+h3{
+    font-weight: 600;
+}
+h4{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.782);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 2vh;
+}
+.player-box{
+    width: 420px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.cover{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .player-box{
+        width: 90vw;
+        height: 90vh;
+    }
+}
+
+
+
+
+
+
+
