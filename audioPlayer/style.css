@@ -10,13 +10,13 @@ html, body{
 }
 
 body{
-    /* background-image: url("media/images/lemonade.png"); */
+    background-image: url("media/images/lemonade.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 130%;
 }
 
@@ -34,7 +34,9 @@ h4{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
-    padding: 2vh;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 .player-box{
     width: 420px;
@@ -56,12 +58,6 @@ h4{
     padding: 5px 2px;
     height: 7px;
     transition: all .7s ease;
-}
-
-.line-area:hover{
-    height: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 0;
 }
 
 .song-line{
@@ -86,17 +82,24 @@ h4{
     transition: all .3s ease;
 }
 
-.bar-svg:hover{
-    background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+@media (min-width: 500px) {
+    
+    .line-area:hover{
+        height: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 0;
+    }
+
+    .bar-svg:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
 }
-
-
 
 
 @media (max-width: 500px) {
     .player-box{
-        width: 90vw;
+        width: 94vw;
         height: 70vh;
     }
 }
