@@ -10,7 +10,6 @@ html, body{
 }
 
 body{
-    background-image: url("media/images/lemonade.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,15 +17,20 @@ body{
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 130%;
+    transition: all .7s ease;
 }
+
+
 
 h3{
     font-weight: 600;
     color: rgb(255, 255, 255);
+    transition: all .5s ease;
 }
 h4{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.782);
+    transition: all .5s ease;
 }
 
 .container{
@@ -52,6 +56,7 @@ h4{
 .cover{
     width: 100%;
     height: auto;
+    transition: all .7s ease;
 }
 
 .line-area{
@@ -74,12 +79,21 @@ h4{
     margin: 0 auto;
 }
 
-.bar-svg{
-    border-radius: 50%;
+.bar-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
     width: 26%;
     height: auto;
+    border-radius: 50%;
+}
+
+.bar-svg{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
     fill: white;
-    transition: all .3s ease;
+    transition: all .1s ease;
 }
 
 @media (min-width: 500px) {
@@ -91,8 +105,9 @@ h4{
     }
 
     .bar-svg:hover{
-        background-color: rgba(0, 0, 0, 0.2);
+        /* background-color: rgba(0, 0, 0, 0.2); */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
     }
 }
 

@@ -11,20 +11,27 @@
 </head>
 <body>
     <div class="container" >
-        <audio  class="audio a1 plaing" src="/audioPlayer/media/tracks/beyonce.mp3"></audio>
-        <audio  class="audio a2" src="/audioPlayer/media/tracks/assets_audio_dontstartnow.mp3"></audio>
+        <audio  class="audio a1 plaing">
+            <source src="https://matrui.github.io/audioPlayer/audioPlayer/media/tracks/beyonce.mp3"  type="audio/mp3">
+        </audio>
+        <audio  class="audio a2">
+            <source src="https://matrui.github.io/audioPlayer/audioPlayer/media/tracks/assets_audio_dontstartnow.mp3"  type="audio/mp3">
+        </audio>
         <div class="player-box">
-            <img class="cover" src="media/images/lemonade.png" alt="cover">
+            <img class="cover" src="media/images/c0.png" alt="cover">
             <div class="line-area">
                 <div class="song-line"></div>               
             </div>
             <h3>Don't Hurt Yourself</h3>
             <h4>Beyonce</h4>
             <div class="bar">
-                    <img class="bar-svg left" src="media/svg/1left.svg" alt="left" >
+                <button type="submit" class="bar-btn left-btn"><img class="bar-svg left" src="media/svg/1left.svg" alt="left"></button>
+                <button type="submit" class="bar-btn play-btn"><img class="bar-svg pause" src="media/svg/2play.svg" alt="pause/play"></button>
+                <button type="submit" class="bar-btn right-btn"><img class="bar-svg right" src="media/svg/3right.svg" alt="right"></button>
+                    <!-- <img class="bar-svg left" src="media/svg/1left.svg" alt="left" >
                     <img class="bar-svg pause" src="media/svg/2pause.svg" alt="pause" style="display: none;">
                     <img class="bar-svg play" src="media/svg/2play.svg" alt="play" style="display: inline-block">
-                    <img class="bar-svg right" src="media/svg/3right.svg" alt="right">
+                    <img class="bar-svg right" src="media/svg/3right.svg" alt="right"> -->
             </div>
         </div>
     </div>
