@@ -1,3 +1,5 @@
+console.log("Mobile 414x896px  Oценка за задание 60 баллов");
+
 let audio = document.querySelectorAll('.audio');
 
 let playImg = document.querySelector('.pause');
