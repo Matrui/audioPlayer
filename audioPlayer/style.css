@@ -64,8 +64,8 @@ h4{
 }
 .player-box{
     width: 420px;
-    height: 60vh;
-    min-height: 680px;
+    height: 50vh;
+    min-height: 610px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
@@ -159,7 +159,7 @@ h4{
 @media (max-width: 500px) {
     .player-box{
         width: 94vw;
-        height: 70vh;
+        height: 40vh;
     }
     .footer{
         width: 92vw;
